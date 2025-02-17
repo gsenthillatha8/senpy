@@ -1,3 +1,29 @@
+
+#### One Time Setup 
+Generate ssh key 
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+
+
+
+% cat ~/.ssh/id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLIVh5cBsnO55NfgAB/KooF+4LEoFW6qLZYCK/SqOsR5ZaRHKR/BncW2tpoZ3pMo1Bmz9TyBJt6qtVM5xQK1a/ZMJ3PvMIdQxuyDR40xkyQB3AY461aE+d80OP1qg69XieZZf8wP04Swgto83VEGpJHtYAyQP61vrwF2agcg8vmxZ1AvmTmTjvFfCYPWryo0a+4prEvJoz4JhQMaZ/Kpq9UIifXDK2DYClqLiez3PqE+Q0ASbnU8/fij4mepoI9zeMgIB+3o/xbEhzUmFal2m6J7DEsNTtHGYpRI6xygC9szJhz7s0RJF80vJ9DavLQGhunrJppsw1cuZldZCwgP5A2lA91YVCePj1Fs1bWJnw0sK4iR/eutqsuJlZHL8JxbY66rlwNqDb2UQqXQ9rt/A6UTUVx344702qZibKDG404NvYv9m3/eQgSgxERWWF+TRAAXMxHJ1DBL2PxGtODXEbaposssdZ9nlZpswuhH4B8zcio1I0BqxoBey3YrJVwdA1636YbDP0C2lZvTwcNoDOQDLUeXMswn8Nu1azXXU1XebPtUVrspy6pGZt8qdE305D5gTKEgCTk6dw+zRxi4ac3aTG9Sli8+uq7j5kgi/QmccV8Hgzl4PZq5PVSN2f0/usGDfzJvrew/KOVy84tGJumyazydMh0Dg1KYkV01WBIw== gsenthil.latha@gmail.com
+
+
+Paste it into ssh section in gihub 
+
+
+
+
+
+
+
+## Regular git commands 
+
+
+
+
 # Add everything 
 git add . 
 git add filename1 filename2 
